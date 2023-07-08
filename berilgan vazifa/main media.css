@@ -1,0 +1,160 @@
+@media screen and (max-width:1252px) {
+    .text-align-center-img{
+        /* margin-left: 590px;
+        margin-top: 200px; */
+        text-align: center;
+        margin: auto;
+        color: black !important;
+        height: 11vh;
+    }
+    
+
+    .wor-two-grid {
+        padding-bottom: 220px;
+        width: 80%;
+        margin: auto;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        grid-template-columns: repeat(1,1fr);
+    }
+.eng-chiroyli-rasimlar {
+    display: grid;
+    gap: 1%;
+    
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+}
+.wor-grid {
+    gap: 6%;
+    margin: auto;
+    display: grid;
+    
+    justify-content: center;
+    grid-template-columns: repeat(1,1fr);
+}
+.crads {
+    padding: 10px;
+    width: 300px;
+}
+.grid-card-image {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1%;
+    width: 90%;
+    justify-content: center;
+    /* border: 1px solid; */
+    padding: 20px;
+    margin: auto;
+}
+.word-grid-1 {
+    margin: auto;
+    padding: 40px;
+    width: 550px;
+    margin: auto;
+
+    border: 1px solid #c5c5c3;
+}
+.imig-1 {
+    margin: auto;
+    background-color: rgb(243, 239, 239);
+    text-align: center;
+    padding-bottom: 10px !important;
+}
+.img-2 {
+    margin: auto;
+    background-color: rgb(243, 239, 239);
+    text-align: center;
+    padding-bottom: 10px !important;
+}
+.img-3 {
+    margin: auto;
+    background-color: rgb(243, 239, 239);
+    text-align: center;
+    padding-bottom: 10px !important;
+}
+.img-4 {
+    margin: auto;
+    background-color: rgb(243, 239, 239);
+    text-align: center;
+    padding-bottom: 10px !important;
+}
+.img-5 {
+    margin: auto;
+    background-color: rgb(243, 239, 239);
+    text-align: center;
+    padding-bottom: 10px !important;
+}
+.img-6 {
+    margin: auto;
+    background-color: rgb(243, 239, 239);
+    text-align: center;
+    padding-bottom: 10px !important;
+}
+@media screen and (max-width:1155px) {
+    .grid-img-word-cards {
+        width: 60%;
+        text-align: center;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-bottom: 40px;
+        gap: 3%;
+    }
+    .border{
+        margin: auto;
+        /* width: 80%;
+        border: 1px solid grey; */
+        padding: 20px;
+     }
+     .eng-chiroyli-rasimlar {
+        display: grid;
+        gap: 1%;
+        
+        justify-content: center;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .grid-imagess-word-people{  
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 33.33333333333333% 33.33333333333333% ;
+        width: 100%;
+        margin: auto;
+        /* border: 1px solid; */
+        padding: 20px;
+      }
+    
+}
+@media screen and (max-width:945px) {
+    .grid-card-image {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 1%;
+        width: 50%;
+        justify-content: center;
+        /* border: 1px solid; */
+        padding: 20px;
+        margin: auto;
+    }
+    .grid-imagess-word-people{  
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 33.33333333333333% ;
+        width: 100%;
+        margin: auto;
+        /* border: 1px solid; */
+        padding: 20px;
+      }
+
+}
+@media screen and (max-width:734px) {
+    grid-img-word-cards {
+        width: 60%;
+        margin: none;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-bottom: 40px;
+        gap: 3%;
+    }
+}

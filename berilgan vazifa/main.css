@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Sintony&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Sintony', sans-serif;
+}
+.navbar{
+    align-items: center;
+    width: 86%;
+    margin: auto;
+    padding-bottom: 20px;
+    display: grid;
+    gap: 28%;
+    gap: 30%;
+    grid-template-columns: repeat(2,1fr);
+}
+.grid-navbarchalar > img{
+    width: 100px !important;
+    height: 6vh;
+}
+li{
+    /* text-align: center; */
+    padding: 20px;
+    padding-top: 40px !important;
+    display: inline;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.background-image{
+    background-image: url(./uy.png);
+    width: 100%;
+    height: 675px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ .opacitiy{
+    background-color: rgba(255, 255, 255, 0.426);
+    width: 100%;
+    height: 100%;
+} 
+.text-align-center > .text-align-center-img{
+
+}
+.text-align-center-img{
+ text-align: center;
+ margin-top: auto;
+ margin-bottom: auto;
+   
+}
+.text-align-center-word{
+   margin: auto;
+}
+.opacitiy > h1 > i{
+   font-size: 50px;
+   margin-left: 735px;
+}
+.wor-two-grid{
+    padding-bottom: 220px;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.card-1{
+
+
+   padding: 20px; 
+}
+.card-1{
+    
+
+   padding: 20px; 
+}
+.card-1 > h1{
+  font-size: 45px
+}
+.card-2{
+    border: 1px solid;
+    padding: 20px; 
+ }
+ .grid-img-word-cards{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-bottom: 40px;
+    gap: 3%;
+
+ }
+ .word-center{
+    text-align: center;
+ }
+ .img > img{
+    width: 500px;
+    height: 90vh;
+ }  
+ .crads{
+    padding: 18px;
+ }
+.olma{
+    background-color: #FAFAFC;
+ }
+ .crads > img{
+    width: 100px !important;
+    height: 10vh !important;
+ }
+ .chiroyli-1png{
+   background-image: url(./eng.png);
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   
+ }
+ .eng-chiroyli-rasimlar{
+   display: grid;
+   gap: 1%;
+   justify-content: center;
+   grid-template-columns: repeat(3,1fr);
+ }
+ .eng-chiroyli-rasimlar > div > img{
+   width: 460px;
+   height: 32vh;
+ }
+ .imig-1{
+  background-color: rgb(243, 239, 239);
+   text-align: center;
+   padding-bottom: 10px !important;
+ }
+ .img-2{
+  background-color: rgb(243, 239, 239);
+   text-align: center;
+   padding-bottom: 10px;
+ }
+ .img-3{
+  background-color: rgb(243, 239, 239);
+   text-align: center;
+   padding-bottom: 10px;
+ }
+ .img-4{
+  background-color: rgb(243, 239, 239);
+   text-align: center;
+   padding-bottom: 10px;
+ }
+ .img-5{
+  background-color: rgb(243, 239, 239);
+   text-align: center;
+   padding-bottom: 10px;
+ }
+ .img-6{
+  background-color: rgb(243, 239, 239);
+   text-align: center;
+   padding-bottom: 10px;
+ }
+ .grid-icon-word{
+  display: flex;
+  gap: 28%;
+  justify-content: center;
+ }
+ .grid-icon-word > img{
+    /* margin: auto; */
+ }
+ .icon-1{
+   width: 10px;
+   height: 4vh;
+   display: flex;
+   margin-right: 10px;
+ }
+ .icon-2{
+   width: 10px;
+   height: 4vh;
+   display: flex;
+   margin-right: 10px;
+ }
+ .icon-3{
+   width: 4px;
+   height: 4vh;
+   display: flex;
+   text-align: center;
+   margin-right: 20px;
+ }
+.grid-imagess-word-people{  
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 100%;
+  margin: auto;
+  /* border: 1px solid; */
+  padding: 20px;
+}
+.people-1 > div > img{
+   width: 100px;
+   height: 10vh;
+}
+.people-2 > div > img{
+   width: 100px;
+   height: 10vh;
+}
+.grid-card-image{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 1%;
+   width: 90%;
+   justify-content: center;
+   /* border: 1px solid; */
+   padding: 20px;
+   margin: auto;
+}
+.grid-card-image > div > img{
+   width: 400px;
+   height: 30vh;
+}
+.card-image1{
+   background-color: rgb(243, 239, 239);
+   /* border: 1px solid; */
+   padding-bottom: 20px;
+}
+.card-image2{
+   /* border: 1px solid; */
+   background-color: rgb(243, 239, 239);
+   padding-bottom: 20px;
+}
+.card-image3{
+   background-color: rgb(243, 239, 239);
+   /* border: 1px solid; */
+   padding-bottom: 20px;
+}
+.wor-grid{
+   gap: 6%;
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.word-grid-1{
+   padding: 40px;
+   width: 550px;
+   border: 1px solid #c5c5c3;
+}
+.grey-bg{
+   justify-content: center;
+   background-color: #45525B;
+   width: 100% !important;
+   padding: 100px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+.bg-black{
+   /* display: flex;
+   justify-content: center;
+    */
+   background-color: #292C32;
+   width: 100%;
+   padding: 80px;
+}
+.border{
+   margin: auto;
+   padding: 20px;
+}
+.footer-navbar-1 > ul{
+   display: block;
+}
+li{
+   list-style: none;
+}
+a{
+   text-decoration: none;
+}
+꧁𝓼𝓱𝓪𝔁𝓫𝓸𝔃꧂, [5/28/2023 9:56 AM]
+<div class="foteer3">
+    <br><br><br><br><br>
+<h5>Seen enough?</h5>
+<h1>Get in touch with us today.</h1>
+<p>Morbi neque ex, condimentum dapibus congue et, vulputate ut <br> ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et <br> nisi ultrices, ut faucibus orci tincidunt.</p>
+<br>
+<button>Contact</button>
+<button>See listings</button>
+</div>
+
+
+
+<div class="footer">
+<img src="Estate-Logotype-Horizontal-Light.png" alt="">
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<div class="hel2">
+    <div class="hel">
+        <h3 style="color:#FF8A63;">Start</h4>
+        <h3>Pages</h3>
+        <h3>Listings</h3>
+        <h3>Listings alt. 2</h3>
+        <h3>Contact</h3>
+        <h3>Legal</h3>
+    </div>
+    <div class="hel">
+        <h3 style="color:#FF8A63;">Company</h4>
+        <h3>About</h3>
+        <h3>Listings</h3>
+        <h3>Newsroom</h3>
+        
+    </div>
+    <div class="hel">
+        <h3 style="color:#FF8A63;">Utility</h4>
+        <h3>Pages</h3>
+        <h3>Listings</h3>
+        <h3>Listings alt. 2</h3>
+        <h3>Contact</h3>
+        <h3>Legal</h3>
+    </div>
+    
+    <div class="hel">
+        <h3 style="color:#FF8A63;">Newsletter</h4>
+    <p>Subscribe to our (infrequent) newsletter where we share <br> news about upcoming listings and projects.</p><br>
+    <input type="text" placeholder="Email" >
+    
+    </div>  
+</div>
+<br><br><br><br><br>
+<div class="p">
+    <p>© Estate, LLC. All rights reserved. Powered by</p>
+    <i class="fa-brands fa-tiktok"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+</div>
+</div>
+
+꧁𝓼𝓱𝓪𝔁𝓫𝓸𝔃꧂, [5/28/2023 9:59 AM]
+@media screen and (max-width: 276px){
+    nav{
+        width: 100%;
+    }
+
+nav a{
+margin-left: -20px;
+}
+
+
+
+
+.img{
+    width: 340%;
+}
+.jami{
+    width: 250%;
+
+}
+
+
+.box1 h6{
+text-align: center;
+position: relative;
+left: 400px;
+}
+
+
+.box1 h3{
+    text-align: center;
+    position: relative;
+    left: 400px;
+    }
+
+
+
+
+.box1 p{
+text-align: center;
+position: relative;
+left: 400px;
+}
+
+
+
+
+.div{
+    width: 100%;
+}
+
+
+.div6 img{
+    width: 336%;
+}
+
+.div6 h2{
+    width: 120%;
+}
+
+
+.div6 h5{
+    width: 170%;
+}
+
+
+.divjami{
+    position: relative;
+    left: 400px;
+}
+
+
+.text h1{
+    width: 190%;
+}
+
+.text p{
+    width: 290%;
+}
+
+
+
+.divjami111{
+    position: relative;
+    left: 400px;
+
+}
+
+.foteer2 h2{
+    width: 390%;
+    
+}
+
+
+.foteer2 p{
+width: 700%;
+}
+
+.foteer2{
+    padding: 0 200px;
+}
+
+.foteer3{
+    width: 343%;
+}
+
+
+
+.footer{
+   display: ne;
+}
+
+}
